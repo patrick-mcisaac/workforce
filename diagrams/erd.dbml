@@ -4,6 +4,7 @@ Table Employees {
     lastName varchar
     computerId int [ref: - Computers.id]
     departmentId int [ref: > Departments.id]
+    locationId int [ref: - Locations.id]
 }
 
 Table Computers {
@@ -16,4 +17,9 @@ Table Computers {
 Table Departments {
     id int [pk]
     name varchar
+}
+
+Table Locations {
+    id int [pk]
+    location varchar
 }
