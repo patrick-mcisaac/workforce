@@ -52,7 +52,6 @@ export const Employees = async () => {
                 `
 		})
 		.join("")
-	debugger
 	return (html += `
         ${employeeHTML}
     </section>
