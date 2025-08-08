@@ -1,4 +1,30 @@
 {
+	"departments": [
+		{
+			"id": 1,
+			"name": "Accounting"
+		},
+		{
+			"id": 2,
+			"name": "Sales"
+		},
+		{
+			"id": 3,
+			"name": "Marketing"
+		},
+		{
+			"id": 4,
+			"name": "Engineering"
+		},
+		{
+			"id": 5,
+			"name": "Human Resources"
+		},
+		{
+			"id": 6,
+			"name": "Operations"
+		}
+	],
 	"computers": [
 		{
 			"id": 1,
@@ -57,6 +83,7 @@
 			"firstName": "Rainu",
 			"lastName": "Cheriah",
 			"age": 32,
+			"departmentId": 1,
 			"computerId": 1
 		},
 		{
@@ -64,6 +91,7 @@
 			"firstName": "Sarah",
 			"lastName": "Johnson",
 			"age": 28,
+			"departmentId": 2,
 			"computerId": 2
 		},
 		{
@@ -71,6 +99,7 @@
 			"firstName": "Michael",
 			"lastName": "Chen",
 			"age": 35,
+			"departmentId": 4,
 			"computerId": 3
 		},
 		{
@@ -78,6 +107,7 @@
 			"firstName": "Emily",
 			"lastName": "Rodriguez",
 			"age": 29,
+			"departmentId": 3,
 			"computerId": 4
 		},
 		{
@@ -85,6 +115,7 @@
 			"firstName": "David",
 			"lastName": "Thompson",
 			"age": 41,
+			"departmentId": 4,
 			"computerId": 5
 		},
 		{
@@ -92,6 +123,7 @@
 			"firstName": "Lisa",
 			"lastName": "Anderson",
 			"age": 37,
+			"departmentId": 5,
 			"computerId": 6
 		},
 		{
@@ -99,6 +131,7 @@
 			"firstName": "James",
 			"lastName": "Wilson",
 			"age": 26,
+			"departmentId": 2,
 			"computerId": 7
 		},
 		{
@@ -106,6 +139,7 @@
 			"firstName": "Maria",
 			"lastName": "Garcia",
 			"age": 33,
+			"departmentId": 6,
 			"computerId": 8
 		},
 		{
@@ -113,6 +147,7 @@
 			"firstName": "Robert",
 			"lastName": "Taylor",
 			"age": 45,
+			"departmentId": 1,
 			"computerId": 9
 		},
 		{
@@ -120,6 +155,7 @@
 			"firstName": "Jennifer",
 			"lastName": "Brown",
 			"age": 30,
+			"departmentId": 3,
 			"computerId": 10
 		}
 	]

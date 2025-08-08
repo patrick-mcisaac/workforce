@@ -3,6 +3,7 @@ Table Employees {
     firstName varchar
     lastName varchar
     computerId int [ref: - Computers.id]
+    departmentId int [ref: > Departments.id]
 }
 
 Table Computers {
@@ -10,4 +11,9 @@ Table Computers {
     model varchar
     year int
     
+}
+
+Table Departments {
+    id int [pk]
+    name varchar
 }
