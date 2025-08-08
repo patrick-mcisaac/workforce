@@ -1,7 +1,7 @@
 // generate html to display employees
 export const Employees = async () => {
 	const response = await fetch(
-		" http://localhost:8088/employees?_expand=computer&_expand=department"
+		" http://localhost:8088/employees?_expand=computer&_expand=department&_expand=location"
 	)
 	const employees = await response.json()
 	let html = `
@@ -21,6 +21,9 @@ export const Employees = async () => {
             </section>
             <section class='employee-department'>
                 <p>Works in the ${employee.department.name}</p>
+            </section>
+            <section class='employee-location'>
+                <p>Works at the ${employee.location.location} office</p>
             </section>
         </div>
         `
