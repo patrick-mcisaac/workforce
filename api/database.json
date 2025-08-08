@@ -85,7 +85,8 @@
 			"age": 32,
 			"departmentId": 1,
 			"locationId": 1,
-			"computerId": 1
+			"computerId": 1,
+			"employeeCustomerId": [2, 5]
 		},
 		{
 			"id": 2,
@@ -94,7 +95,8 @@
 			"age": 28,
 			"departmentId": 2,
 			"locationId": 2,
-			"computerId": 2
+			"computerId": 2,
+			"employeeCustomerId": [3, 6]
 		},
 		{
 			"id": 3,
@@ -103,7 +105,8 @@
 			"age": 35,
 			"departmentId": 4,
 			"locationId": 1,
-			"computerId": 3
+			"computerId": 3,
+			"employeeCustomerId": [4, 7]
 		},
 		{
 			"id": 4,
@@ -112,61 +115,8 @@
 			"age": 29,
 			"departmentId": 3,
 			"locationId": 3,
-			"computerId": 4
-		},
-		{
-			"id": 5,
-			"firstName": "David",
-			"lastName": "Thompson",
-			"age": 41,
-			"departmentId": 4,
-			"locationId": 1,
-			"computerId": 5
-		},
-		{
-			"id": 6,
-			"firstName": "Lisa",
-			"lastName": "Anderson",
-			"age": 37,
-			"departmentId": 5,
-			"locationId": 2,
-			"computerId": 6
-		},
-		{
-			"id": 7,
-			"firstName": "James",
-			"lastName": "Wilson",
-			"age": 26,
-			"departmentId": 2,
-			"locationId": 3,
-			"computerId": 7
-		},
-		{
-			"id": 8,
-			"firstName": "Maria",
-			"lastName": "Garcia",
-			"age": 33,
-			"departmentId": 6,
-			"locationId": 1,
-			"computerId": 8
-		},
-		{
-			"id": 9,
-			"firstName": "Robert",
-			"lastName": "Taylor",
-			"age": 45,
-			"departmentId": 1,
-			"locationId": 2,
-			"computerId": 9
-		},
-		{
-			"id": 10,
-			"firstName": "Jennifer",
-			"lastName": "Brown",
-			"age": 30,
-			"departmentId": 3,
-			"locationId": 3,
-			"computerId": 10
+			"computerId": 4,
+			"employeeCustomerId": [1, 4]
 		}
 	],
 	"locations": [
@@ -181,6 +131,70 @@
 		{
 			"id": 3,
 			"location": "Atlanta"
+		}
+	],
+	"customers": [
+		{
+			"id": 1,
+			"name": "Juniper Distribution",
+			"employeeCustomerId": [2, 6]
+		},
+		{
+			"id": 2,
+			"name": "TechFlow Solutions",
+			"employeeCustomerId": [1, 7]
+		},
+		{
+			"id": 3,
+			"name": "BlueSky Manufacturing",
+			"employeeCustomerId": [4, 5]
+		},
+		{
+			"id": 4,
+			"name": "Metro Health Systems",
+			"employeeCustomerId": [3, 8]
+		}
+	],
+	"employeeCustomers": [
+		{
+			"id": 1,
+			"customerId": 2,
+			"employeeId": 4
+		},
+		{
+			"id": 2,
+			"customerId": 1,
+			"employeeId": 1
+		},
+		{
+			"id": 3,
+			"customerId": 4,
+			"employeeId": 2
+		},
+		{
+			"id": 4,
+			"customerId": 3,
+			"employeeId": 3
+		},
+		{
+			"id": 5,
+			"customerId": 3,
+			"employeeId": 1
+		},
+		{
+			"id": 6,
+			"customerId": 1,
+			"employeeId": 2
+		},
+		{
+			"id": 7,
+			"customerId": 2,
+			"employeeId": 3
+		},
+		{
+			"id": 8,
+			"customerId": 4,
+			"employeeId": 4
 		}
 	]
 }
