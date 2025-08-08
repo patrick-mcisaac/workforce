@@ -56,60 +56,70 @@
 			"id": 1,
 			"firstName": "Rainu",
 			"lastName": "Cheriah",
+			"age": 32,
 			"computerId": 1
 		},
 		{
 			"id": 2,
 			"firstName": "Sarah",
 			"lastName": "Johnson",
+			"age": 28,
 			"computerId": 2
 		},
 		{
 			"id": 3,
 			"firstName": "Michael",
 			"lastName": "Chen",
+			"age": 35,
 			"computerId": 3
 		},
 		{
 			"id": 4,
 			"firstName": "Emily",
 			"lastName": "Rodriguez",
+			"age": 29,
 			"computerId": 4
 		},
 		{
 			"id": 5,
 			"firstName": "David",
 			"lastName": "Thompson",
+			"age": 41,
 			"computerId": 5
 		},
 		{
 			"id": 6,
 			"firstName": "Lisa",
 			"lastName": "Anderson",
+			"age": 37,
 			"computerId": 6
 		},
 		{
 			"id": 7,
 			"firstName": "James",
 			"lastName": "Wilson",
+			"age": 26,
 			"computerId": 7
 		},
 		{
 			"id": 8,
 			"firstName": "Maria",
 			"lastName": "Garcia",
+			"age": 33,
 			"computerId": 8
 		},
 		{
 			"id": 9,
 			"firstName": "Robert",
 			"lastName": "Taylor",
+			"age": 45,
 			"computerId": 9
 		},
 		{
 			"id": 10,
 			"firstName": "Jennifer",
 			"lastName": "Brown",
+			"age": 30,
 			"computerId": 10
 		}
 	]
