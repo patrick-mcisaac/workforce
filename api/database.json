@@ -84,6 +84,7 @@
 			"lastName": "Cheriah",
 			"age": 32,
 			"departmentId": 1,
+			"locationId": 1,
 			"computerId": 1
 		},
 		{
@@ -92,6 +93,7 @@
 			"lastName": "Johnson",
 			"age": 28,
 			"departmentId": 2,
+			"locationId": 2,
 			"computerId": 2
 		},
 		{
@@ -100,6 +102,7 @@
 			"lastName": "Chen",
 			"age": 35,
 			"departmentId": 4,
+			"locationId": 1,
 			"computerId": 3
 		},
 		{
@@ -108,6 +111,7 @@
 			"lastName": "Rodriguez",
 			"age": 29,
 			"departmentId": 3,
+			"locationId": 3,
 			"computerId": 4
 		},
 		{
@@ -116,6 +120,7 @@
 			"lastName": "Thompson",
 			"age": 41,
 			"departmentId": 4,
+			"locationId": 1,
 			"computerId": 5
 		},
 		{
@@ -124,6 +129,7 @@
 			"lastName": "Anderson",
 			"age": 37,
 			"departmentId": 5,
+			"locationId": 2,
 			"computerId": 6
 		},
 		{
@@ -132,6 +138,7 @@
 			"lastName": "Wilson",
 			"age": 26,
 			"departmentId": 2,
+			"locationId": 3,
 			"computerId": 7
 		},
 		{
@@ -140,6 +147,7 @@
 			"lastName": "Garcia",
 			"age": 33,
 			"departmentId": 6,
+			"locationId": 1,
 			"computerId": 8
 		},
 		{
@@ -148,6 +156,7 @@
 			"lastName": "Taylor",
 			"age": 45,
 			"departmentId": 1,
+			"locationId": 2,
 			"computerId": 9
 		},
 		{
@@ -156,7 +165,22 @@
 			"lastName": "Brown",
 			"age": 30,
 			"departmentId": 3,
+			"locationId": 3,
 			"computerId": 10
+		}
+	],
+	"locations": [
+		{
+			"id": 1,
+			"location": "Nashville"
+		},
+		{
+			"id": 2,
+			"location": "Memphis"
+		},
+		{
+			"id": 3,
+			"location": "Atlanta"
 		}
 	]
 }
