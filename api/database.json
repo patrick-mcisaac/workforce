@@ -1,0 +1,116 @@
+{
+	"computers": [
+		{
+			"id": 1,
+			"model": "Macbook Pro",
+			"year": 2015
+		},
+		{
+			"id": 2,
+			"model": "Dell XPS 13",
+			"year": 2022
+		},
+		{
+			"id": 3,
+			"model": "Lenovo ThinkPad X1",
+			"year": 2023
+		},
+		{
+			"id": 4,
+			"model": "HP EliteBook 840",
+			"year": 2021
+		},
+		{
+			"id": 5,
+			"model": "MacBook Air M2",
+			"year": 2023
+		},
+		{
+			"id": 6,
+			"model": "Surface Laptop 5",
+			"year": 2022
+		},
+		{
+			"id": 7,
+			"model": "ASUS ZenBook Pro",
+			"year": 2022
+		},
+		{
+			"id": 8,
+			"model": "Dell Inspiron 15",
+			"year": 2021
+		},
+		{
+			"id": 9,
+			"model": "Acer Swift 3",
+			"year": 2023
+		},
+		{
+			"id": 10,
+			"model": "MacBook Pro M3",
+			"year": 2024
+		}
+	],
+	"employees": [
+		{
+			"id": 1,
+			"firstName": "Rainu",
+			"lastName": "Cheriah",
+			"computerId": 1
+		},
+		{
+			"id": 2,
+			"firstName": "Sarah",
+			"lastName": "Johnson",
+			"computerId": 2
+		},
+		{
+			"id": 3,
+			"firstName": "Michael",
+			"lastName": "Chen",
+			"computerId": 3
+		},
+		{
+			"id": 4,
+			"firstName": "Emily",
+			"lastName": "Rodriguez",
+			"computerId": 4
+		},
+		{
+			"id": 5,
+			"firstName": "David",
+			"lastName": "Thompson",
+			"computerId": 5
+		},
+		{
+			"id": 6,
+			"firstName": "Lisa",
+			"lastName": "Anderson",
+			"computerId": 6
+		},
+		{
+			"id": 7,
+			"firstName": "James",
+			"lastName": "Wilson",
+			"computerId": 7
+		},
+		{
+			"id": 8,
+			"firstName": "Maria",
+			"lastName": "Garcia",
+			"computerId": 8
+		},
+		{
+			"id": 9,
+			"firstName": "Robert",
+			"lastName": "Taylor",
+			"computerId": 9
+		},
+		{
+			"id": 10,
+			"firstName": "Jennifer",
+			"lastName": "Brown",
+			"computerId": 10
+		}
+	]
+}
