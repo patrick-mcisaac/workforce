@@ -1,0 +1,13 @@
+Table Employees {
+    id int [pk]
+    firstName varchar
+    lastName varchar
+    computerId int [ref: - Computers.id]
+}
+
+Table Computers {
+    id int [pk]
+    model varchar
+    year int
+    
+}

@@ -1,0 +1,14 @@
+sequenceDiagram
+
+participant Main
+participant Employees
+
+participant API
+
+Main ->> Employees: generate some HTML
+Employees ->> API: fetch me the employee data expanded
+API -->> Employees: here is the data
+loop
+    Note over Employees:loops over data<br> and generates html
+end
+Employees -->> Main: here is the html
